@@ -19,3 +19,9 @@ function t($word) {
 
 # set terminal with vi mode
 set-alias vi nvim
+
+# set oh-my-posh
+# find posh theme first
+# $env:POSH_THEMES_PATH
+# replace {...} with yours
+oh-my-posh init pwsh --config 'C:\Users\{your-user}\AppData\Local\Programs\oh-my-posh\themes\{theme-name}.omp.json' | Invoke-Expression
