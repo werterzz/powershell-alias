@@ -25,3 +25,6 @@ set-alias vi nvim
 # $env:POSH_THEMES_PATH
 # replace {...} with yours
 oh-my-posh init pwsh --config 'C:\Users\{your-user}\AppData\Local\Programs\oh-my-posh\themes\{theme-name}.omp.json' | Invoke-Expression
+
+# notify text every time when you open the terminal
+cat notifyme.md
